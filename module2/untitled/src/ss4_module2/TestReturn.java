@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TestReturn {
     public static void main(String[] args) {
-      Student student1 = new Student(1,"vinh","viet nam","vonhuvinh",true);
+      Student student1 = new Student();
         Scanner scanner = new Scanner(System.in);
         System.out.println("nhập mả ");
         int a = Integer.parseInt(scanner.nextLine());
