@@ -24,7 +24,7 @@ public class Point3d extends Point2 {
         this.z = z;
     }
     public float[] getXYZ() {
-      return new float[]{x,y,z};
+      return new float[]{getX(),getY(),z};
     }
 
     @Override

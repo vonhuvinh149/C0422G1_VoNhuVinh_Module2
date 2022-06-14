@@ -3,8 +3,8 @@ package ss6_module2.Circle;
 import java.util.Scanner;
 
 public class Circle {
-    protected String color;
-    protected double darius;
+    private String color;
+    private double darius;
     Scanner scanner = new Scanner(System.in);
 
     public Circle() {

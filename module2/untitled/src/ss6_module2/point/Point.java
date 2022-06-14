@@ -1,8 +1,8 @@
 package ss6_module2.point;
 
 public class Point {
-    protected float x = 1.0f;
-    protected float y = 2.0f;
+    private float x = 1.0f;
+    private float y = 2.0f;
 
     public Point(float x, float y) {
         this.x = x;

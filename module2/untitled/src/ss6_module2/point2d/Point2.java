@@ -1,7 +1,7 @@
 package ss6_module2.point2d;
 
 public class Point2 {
-    protected float x = 1.0f , y = 1.1f;
+   private float x = 1.0f , y = 1.1f;
 
     public Point2(float x, float y) {
         this.x = x;
