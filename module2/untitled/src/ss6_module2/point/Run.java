@@ -6,5 +6,4 @@ public class Run {
         System.out.println(movablePoint);
         System.out.println(movablePoint.move());
     }
-
 }
