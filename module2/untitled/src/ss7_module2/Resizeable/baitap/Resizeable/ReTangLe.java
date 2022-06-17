@@ -5,8 +5,8 @@ public class ReTangLe extends Shape {
     private double height;
 
     public ReTangLe() {
-    }
 
+    }
     public ReTangLe(double width, double height) {
         this.width = width;
         this.height = height;
