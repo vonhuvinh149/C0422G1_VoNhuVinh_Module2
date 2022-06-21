@@ -14,6 +14,7 @@ public class Test {
                     "3. xoá sản phẩm \n" +
                     "4. tìm kiếm sản pẩm \n" +
                     "5. sắp xếp \n" +
+                    "6. Cập nhật sản phẩm"+
                     "0. exit");
             System.out.println("nhập sự lựa chọn ");
             option = Integer.parseInt(sc.nextLine());

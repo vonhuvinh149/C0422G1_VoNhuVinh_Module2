@@ -54,22 +54,6 @@ public class ProductManager {
         }
     }
 
-    // cập nhât sản phẩm
-    public void edit(int id) {
-        for (int i = 0; i < list.size(); i++) {
-            if (list.get(i).getId() == id) {
-                System.out.println("Sửa mã sản phẩm: ");
-                list.get(i).setId(Integer.parseInt(scanner.nextLine()));
-                System.out.println("Sửa tên sản phẩm: ");
-                list.get(i).setName(scanner.nextLine());
-                System.out.println("cập nhật hạn sử dụng");
-                list.get(i).setExpiry(Integer.parseInt(scanner.nextLine()));
-                System.out.println("Sửa giá sản phẩm: ");
-                list.get(i).setPrice(Double.parseDouble(scanner.nextLine()));
-                return;
-            }
-        }
-    }
 
     // sắp xếp
     public void sort() {
@@ -86,5 +70,22 @@ public class ProductManager {
             }
         });
 
+    }
+
+    // cập nhât sản phẩm
+    public void edit(int id) {
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i).getId() == id) {
+                System.out.println("Sửa mã sản phẩm: ");
+                list.get(i).setId(Integer.parseInt(scanner.nextLine()));
+                System.out.println("Sửa tên sản phẩm: ");
+                list.get(i).setName(scanner.nextLine());
+                System.out.println("cập nhật hạn sử dụng");
+                list.get(i).setExpiry(Integer.parseInt(scanner.nextLine()));
+                System.out.println("Sửa giá sản phẩm: ");
+                list.get(i).setPrice(Double.parseDouble(scanner.nextLine()));
+                return;
+            }
+        }
     }
 }
