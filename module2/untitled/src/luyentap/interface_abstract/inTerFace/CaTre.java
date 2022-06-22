@@ -1,4 +1,4 @@
-package inTerFace;
+package luyentap.interface_abstract.inTerFace;
 public class CaTre extends LopCa implements iBo{
     // khai báo thuộc tính
     double soKm ;

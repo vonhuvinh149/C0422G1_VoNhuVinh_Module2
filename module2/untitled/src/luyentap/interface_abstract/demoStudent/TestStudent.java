@@ -1,4 +1,4 @@
-package demoStudent;
+package luyentap.interface_abstract.demoStudent;
 
 import java.util.Scanner;
 

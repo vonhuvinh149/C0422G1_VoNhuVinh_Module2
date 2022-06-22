@@ -1,4 +1,4 @@
-package inTerFace;
+package luyentap.interface_abstract.inTerFace;
 
 public class Testca {
     public static void main(String[] args) {

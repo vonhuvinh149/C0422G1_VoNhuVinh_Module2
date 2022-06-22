@@ -9,8 +9,10 @@ public  class Animal {
          this.id = id;
         this.name = name + " là học sinh giỏi ";
     }
-//     Animal() {
-//    }
+
+    public Animal() {
+
+    }
 
    public  int getId() {
         return id;

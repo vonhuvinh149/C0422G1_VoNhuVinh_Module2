@@ -1,4 +1,4 @@
-package inTerFace;
+package luyentap.interface_abstract.inTerFace;
 
 public abstract class LopCa implements IBoi{
     // khai báo biến

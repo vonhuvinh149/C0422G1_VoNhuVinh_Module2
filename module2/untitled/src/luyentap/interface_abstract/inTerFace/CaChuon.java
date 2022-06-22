@@ -1,4 +1,4 @@
-package inTerFace;
+package luyentap.interface_abstract.inTerFace;
 
 public class CaChuon extends LopCa implements iBay{
     double speed ;
