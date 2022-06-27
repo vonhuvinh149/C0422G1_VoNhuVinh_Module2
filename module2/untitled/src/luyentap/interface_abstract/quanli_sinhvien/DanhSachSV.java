@@ -1,5 +1,6 @@
 package luyentap.interface_abstract.quanli_sinhvien;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -75,5 +76,9 @@ public class DanhSachSV {
                 }
             }
         });
+    }
+    // ghi file
+    public void ghiFile(File file){
+
     }
 }

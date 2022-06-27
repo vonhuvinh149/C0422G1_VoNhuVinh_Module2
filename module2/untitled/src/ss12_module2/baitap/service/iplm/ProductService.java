@@ -22,6 +22,7 @@ public class ProductService implements IProduct {
         Double price = Double.parseDouble(scanner.nextLine());
         Product product = new Product(id, name, price);
         list.add(product);
+        
     }
 
     @Override

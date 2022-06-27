@@ -1,5 +1,6 @@
 package luyentap.interface_abstract.quanli_sinhvien;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 /*
@@ -21,7 +22,7 @@ import java.util.Objects;
 *          8. tìm kiểm tất cả sinh viên dựa trên tên và nhập từ bàn phím
 *          9 . xuất ra danh sách sinh viên có điểm từ cao đến thấp
  */
-public  class SinhVien implements Comparable<SinhVien>{
+public  class SinhVien implements Comparable<SinhVien> , Serializable {
     private String id ;
     private String name ;
     private int date ;

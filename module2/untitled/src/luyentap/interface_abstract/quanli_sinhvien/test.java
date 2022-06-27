@@ -19,6 +19,7 @@ public class test {
                     "7. xoá 1 sinh viên ra khỏi danh sách dựa trên mả sinh viên" + "\n" +
                     "8. tìm kiểm tất cả sinh viên dựa trên tên và nhập từ bàn phím" + "\n" +
                     "9 . xuất ra danh sách sinh viên có điểm từ cao đến thấp);" + "\n" +
+                    "10. lưu danh sách sinh viên xuống tập tin\n"+
                     "0. exit");
             System.out.println("lựa chọn chức năng");
             luaChon = Integer.parseInt(sc.nextLine());
